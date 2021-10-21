@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+body{
+    background-color: #263238;
+}
+
+.flex .content{
+    border-radius: 15px;
+    background-color: #313e45;
+    width: max-content;
+    text-align: center;
+}

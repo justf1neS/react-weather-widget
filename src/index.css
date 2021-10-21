@@ -1,0 +1,27 @@
+div{
+ padding: 20px;
+ display: grid;
+ place-items: center;
+ border-radius: 15px;
+}
+
+.weatherIcon{
+    position: relative;
+    animation: icon 2s infinite;
+    padding-bottom: 15px;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.sliderDiv{
+    background-color: rgb(241, 213, 213);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 20px;
+}
+
+@keyframes icon{
+    0% {top: 0px;}
+    50% {top: 15px;}
+    100% {top: 0px;}
+}
